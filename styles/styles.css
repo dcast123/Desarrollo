@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    }
+    
+    .blurred-bg-container2{
+      background: url(https://img5.goodfon.com/wallpaper/nbig/d/18/chernaia-koshka-seryi-fon-ten.jpg);
+      height: 130vh; /* =h */
+      background-size: cover;
+    
+    }
+    
+    .blurred-bg-container2 .content2{
+        background: #fff;
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        box-shadow: 0 0 32px rgba(0,0,0,0,5);
+        position: absolute;
+        top: 10px;
+        left: 478px;
+        
+    }
+    
+    
+    .blurred-bg-container2 .table2 {
+      padding: 15px;
+      background: rgba(255, 255, 255, 0);
+      height: 300%;
+      box-sizing: border-box; /* so that padding is included in height */
+    }
+    
+    
+    .blurred-bg-container2 .content2 {
+      background: inherit;
+      width: 52%; /* =cw */
+      height: 120%; /* =ch */
+      border-radius: 8px;
+      box-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
+      position: absolute;
+      top: 50%; /* =ct */
+      left: 50%; /* =cl */
+      transform: translate(-50%, -40.55%);
+      overflow: hidden;
+    }
+    
+    .ArticulosRelacionados{
+        list-style: none;
+    }
+    
+    table .PrincipalTD{ 
+        background-color: #E3FAE4;
+    }
+    
+    table .ArticuloTD{
+        background-color: #FFD9B3;
+    }
+    
+    table .ArticuloRelacionadosTD{
+        background-color: #D6F0F9;
+    }
+    
+    table .PieTD{
+        background-color: #E8F8F5;
+    }
+    
+    .menu{
+        background-color: black;
+        text-align: center;
+    }
+    .menu ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .menu ul li{
+        display: inline-block;
+    
+    }
+    .menu ul li a{
+        color: white;
+        display: block;
+        padding: 2px 2px;
+        text-decoration: none;
+        height: 30px;
+    
+    }
+    .menu ul li a:hover{
+            background-color: #FA1A08;
+            -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.3);
+             transform: scale(1.3);
+        }
+    
+    
+    
